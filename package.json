@@ -1,7 +1,9 @@
 {
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "build": "echo 'No build step required' && exit 0",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.7",
