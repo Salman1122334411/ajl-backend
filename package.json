@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.7",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4",
+    "mysql2": "^3.14.2",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1"
+  }
+}
